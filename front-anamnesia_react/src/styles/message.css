@@ -1,0 +1,5 @@
+.content-message {
+    border-radius: var(--gap-8, 8px);
+    border: 1px solid var(--gray-gray-200, #BEBEC1);
+    background: var(--gray-gray-100, #EFEFF0);
+}
