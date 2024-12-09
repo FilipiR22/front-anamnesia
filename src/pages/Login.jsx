@@ -8,17 +8,19 @@ import Title from "../components/Title";
 function Login() {
     return (
         <>
-            <div className="d-flex flex-column justify-content-between root-container">
+            <div className="flex flex-col justify-between min-h-screen root-container">
                 <Header />
-                <main className="row justify-content-center align-items-center" style={{ height: '100', width: '100%' }}>
-                    <div className="content col-4 d-flex flex-column gap-5">
+                <main className="flex justify-center items-center flex-1">
+                    <div className="content w-full max-w-md flex flex-col gap-5">
                         <Title text_h1="Olá novamente!">
-                            Ainda não tem uma conta? <Link to="/" className="text-decoration-none">criar conta</Link>
+                            Ainda não tem uma conta? <Link to="/" className="text-blue-500 underline">criar conta</Link>
                         </Title>
-                        <form action="" className="d-flex flex-column gap-2">
-                            <InputPrimary text_label='O seu endereço de e-mail' placeholder="exemple@exemple.com" id="endereco_email" type='email' />
-                            <InputPrimary text_label='A sua senha' placeholder="exemple" id="endereco_email" type="password" />
-                            <p>Esqueceu sua senha?  <Link to="/">recuperar senha</Link></p>
+                        <form action="" className="flex flex-col gap-2">
+                            <InputPrimary text_label="O seu endereço de e-mail" placeholder="exemple@exemple.com" id="endereco_email" type="email" />
+                            <InputPrimary text_label="A sua senha" placeholder="exemple" id="endereco_senha" type="password" />
+                            <p className="text-sm">
+                                Esqueceu sua senha? <Link to="/" className="text-blue-500 underline">recuperar senha</Link>
+                            </p>
                             <BtnPrimary>
                                 Entrar
                             </BtnPrimary>
@@ -28,7 +30,7 @@ function Login() {
                 <Footer />
             </div>
         </>
-    )
+    );
 }
 
 export default Login;

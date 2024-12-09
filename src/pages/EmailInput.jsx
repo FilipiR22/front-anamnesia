@@ -7,17 +7,17 @@ import Title from "../components/Title";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faRightLong } from '@fortawesome/free-solid-svg-icons';
 
-function Login() {
+function EmailInput() {
     return (
         <>
-            <div className="d-flex flex-column justify-content-between root-container">
+            <div className="flex flex-col justify-between min-h-screen root-container">
                 <Header />
-                <main className="row justify-content-center align-items-center" style={{ height: '100', width: '100%' }}>
-                    <div className="content col-4 d-flex flex-column gap-5">
+                <main className="flex justify-center items-center flex-1 w-full">
+                    <div className="content w-full max-w-md flex flex-col gap-5">
                         <Title text_h1="Olá novamente!">
-                            Ainda não tem uma conta? <Link to="/" className="text-decoration-none">criar conta</Link>
+                            Ainda não tem uma conta? <Link to="/" className="text-blue-500 underline">criar conta</Link>
                         </Title>
-                        <form action="" className="d-flex flex-column gap-3">
+                        <form action="" className="flex flex-col gap-3">
                             <InputPrimary text_label='Primeiro, insira o seu e-mail' placeholder="exemple@exemple.com" id="endereco_email" type='email' />
                             <BtnPrimary>
                                 Próximo <FontAwesomeIcon icon={faRightLong} />
@@ -28,7 +28,7 @@ function Login() {
                 <Footer />
             </div>
         </>
-    )
+    );
 }
 
-export default Login;
+export default EmailInput;

@@ -5,25 +5,22 @@ import Title from "../components/Title";
 import img_verification_code from "../assets/img_verification_code.svg";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleExclamation } from '@fortawesome/free-solid-svg-icons';
-import '../styles/message.css';
 
 function VerificationCodeSend() {
     return (
         <>
-            <div className="d-flex flex-column justify-content-between root-container">
+            <div className="flex flex-col justify-between min-h-screen root-container">
                 <Header />
-                <main className="row justify-content-center align-items-center" style={{ height: '100', width: '100%' }}>
-                    <div className="content col-4 d-flex flex-column gap-4">
+                <main className="flex justify-center items-center flex-1 w-full">
+                    <div className="content w-full max-w-md flex flex-col gap-4">
                         <Title text_h1="Verifique o seu e-mail">
                             um código foi enviado
                         </Title>
                         <div className="message">
-                            <img src={img_verification_code} alt={img_verification_code} className="d-block ms-auto" />
-                            <div className="content-message d-flex gap-2 rounded p-3">
-                                <FontAwesomeIcon icon={faCircleExclamation} style={{ color: "#f3961c", fontSize:"2rem" }} />
-                                <p>Enviamos um código para o e-mail <strong>
-                                    e-mail
-                                </strong> Por favor, acesse sua caixa de e-mail para obter o código.</p>
+                            <img src={img_verification_code} alt="Imagem do código de verificação" className="mx-auto" />
+                            <div className="flex gap-2 rounded-lg p-3 border border-yellow-400 bg-yellow-50">
+                                <FontAwesomeIcon icon={faCircleExclamation} className="text-yellow-600 text-3xl" />
+                                <p>Enviamos um código para o e-mail <strong>e-mail</strong>. Por favor, acesse sua caixa de e-mail para obter o código.</p>
                             </div>
                         </div>
                         <BtnPrimary>
@@ -34,7 +31,7 @@ function VerificationCodeSend() {
                 <Footer />
             </div>
         </>
-    )
+    );
 }
 
 export default VerificationCodeSend;
