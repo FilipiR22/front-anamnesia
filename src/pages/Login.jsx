@@ -10,7 +10,7 @@ function Login() {
         <>
             <div className="flex flex-col justify-between min-h-screen root-container">
                 <Header />
-                <main className="flex justify-center items-center flex-1">
+                <main className="flex justify-center flex-1 mt-104">
                     <div className="content w-full max-w-md flex flex-col gap-5">
                         <Title text_h1="Olá novamente!">
                             Ainda não tem uma conta? <Link to="/" className="text-blue-500 underline">criar conta</Link>

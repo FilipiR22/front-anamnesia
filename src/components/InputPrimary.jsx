@@ -8,7 +8,7 @@ function InputPrimary({ text_label, placeholder, id, type }) {
                 type={type} 
                 placeholder={placeholder} 
                 id={id} 
-                className="border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 p-4"
             />
         </fieldset>
     );

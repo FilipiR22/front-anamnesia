@@ -7,7 +7,10 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "concurrently \"npm run start:react\" \"npm run start:tailwind\"",
+    "start:react": "npm run dev",
+    "start:tailwind": "npx tailwindcss -i ./src/styles/input.css -o ./src/styles/output.css --watch"
   },
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^6.7.1",
@@ -21,6 +24,7 @@
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
     "@vitejs/plugin-react": "^4.3.3",
+    "concurrently": "^9.1.0",
     "eslint": "^9.13.0",
     "eslint-plugin-react": "^7.37.2",
     "eslint-plugin-react-hooks": "^5.0.0",
