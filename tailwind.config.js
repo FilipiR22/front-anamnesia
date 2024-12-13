@@ -3,6 +3,9 @@ module.exports = {
   content: ["./src/**/*.{html,js,jsx,ts,tsx}"], // Inclui todos os arquivos relevantes na pasta src
   theme: {
     extend: {
+      fontSize:{
+        '14-size':'14px'
+      },
       padding:{
         'quatro': '16px'
       },
@@ -13,6 +16,7 @@ module.exports = {
       },
       colors: {
         primary: {
+          white:'rgba(255, 255, 255, 1)',
           main: '#256D99',
           light: '#D5E1EB',
           dark: '#134A6D',
@@ -39,16 +43,19 @@ module.exports = {
         },
         gray: {
           100: '#F4F4F5',
-          200: '#E8E8E1',
+          200: 'rgba(190, 190, 193, 1)',
           300: '#D7C7C3',
-          400: '#A3A3A9',
+          400: 'rgba(99, 99, 105, 1)',
           500: '#848583',
           600: '#313135',
           700: '#1E1E20',
           800: '#0C0C0E',
-          900: '#040404',
+          900: 'rgba(4, 4, 4, 1)',
         },
       },
+      screens: {
+        'sm-408': '408px',
+      }
     },
   },
   plugins: [],

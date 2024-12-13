@@ -12,10 +12,10 @@ function EmailInput() {
         <>
             <div className="flex flex-col justify-between min-h-screen root-container">
                 <Header />
-                <main className="flex justify-center items-center flex-1 w-full">
-                    <div className="content w-full max-w-md flex flex-col gap-5">
-                        <Title text_h1="Olá novamente!">
-                            Ainda não tem uma conta? <Link to="/" className="text-blue-500 underline">criar conta</Link>
+                <main className="flex justify-center flex-1 mt-104">
+                    <div className="content-408 w-full max-w-md flex flex-col gap-12">
+                        <Title text_h1="Opa! Vamos criar sua conta?">
+                            Já tem uma conta? <Link to="/" className="text-blue-500 underline">Acessar conta</Link>
                         </Title>
                         <form action="" className="flex flex-col gap-3">
                             <InputPrimary text_label='Primeiro, insira o seu e-mail' placeholder="exemple@exemple.com" id="endereco_email" type='email' />

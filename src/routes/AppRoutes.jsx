@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Login from '../pages/Login';
-import EmailInput from '../pages/EmailInput';
+import EmailInput from '../pages/EmailInputScreen';
 import Home from '../pages/Home';
 import VerificationCodeSend from '../pages/VerificationCodeSend';
 
