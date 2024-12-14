@@ -13,6 +13,7 @@ function Login() {
                     <Link to="/verification-code-send" className="text-blue-500 underline">/verification-code</Link>
                     <Link to="/email-verification" className="text-blue-500 underline">/email-verification</Link>
                     <Link to="/personal-data" className="text-blue-500 underline">/personal-data</Link>
+                    <Link to="/registration-sucess" className="text-blue-500 underline">/registration sucess</Link>
                 </main>
                 <Footer />
             </div>
