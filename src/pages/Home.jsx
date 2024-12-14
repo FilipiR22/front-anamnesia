@@ -16,6 +16,7 @@ function Login() {
                     <Link to="/registration-sucess" className="text-blue-500 underline">/registration sucess</Link>
                     <Link to="/password-creation" className="text-blue-500 underline">/password-creation</Link>
                     <Link to="/password-recovery" className="text-blue-500 underline">/password-recovery</Link>
+                    <Link to="/link-recovery" className="text-blue-500 underline">/RecoveryLinkSend</Link>
                 </main>
                 <Footer />
             </div>
