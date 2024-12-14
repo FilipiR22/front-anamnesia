@@ -12,6 +12,7 @@ function Login() {
                     <Link to="/email" className="text-blue-500 underline">Email Input</Link>
                     <Link to="/verification-code-send" className="text-blue-500 underline">/verification-code</Link>
                     <Link to="/email-verification" className="text-blue-500 underline">/email-verification</Link>
+                    <Link to="/personal-data" className="text-blue-500 underline">/personal-data</Link>
                 </main>
                 <Footer />
             </div>
