@@ -7,6 +7,7 @@ import VerificationCodeSend from '../pages/VerificationCodeSend';
 import PersonalDataSreen from '../pages/PersonalDataSreen';
 import ResgistrationSucessScreen from '../pages/ResgistrationSucessScreen';
 import PasswordCreationScreen from '../pages/PasswordCreationScreeen';
+import PasswordRecoveryScreen from '../pages/PasswordRecoveryScreen';
 
 const AppRoutes = () => {
     return (
@@ -20,6 +21,7 @@ const AppRoutes = () => {
                 <Route path='/personal-data' element={<PersonalDataSreen/>}/>
                 <Route path='/registration-sucess' element={<ResgistrationSucessScreen/>}/>
                 <Route path='/password-creation' element={<PasswordCreationScreen/>}/>
+                <Route path='/password-recovery' element={<PasswordRecoveryScreen/>}/>
             </Routes>
         </BrowserRouter>
     );
