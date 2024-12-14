@@ -10,7 +10,8 @@ function Login() {
                 <main className="flex justify-center items-center text-center gap-5 flex-1">
                     <Link to="/login" className="text-blue-500 underline">Login</Link>
                     <Link to="/email" className="text-blue-500 underline">Email Input</Link>
-                    <Link to="/verification-code" className="text-blue-500 underline">/verification-code</Link>
+                    <Link to="/verification-code-send" className="text-blue-500 underline">/verification-code</Link>
+                    <Link to="/email-verification" className="text-blue-500 underline">/email-verification</Link>
                 </main>
                 <Footer />
             </div>
