@@ -44,7 +44,7 @@ module.exports = {
         gray: {
           100: '#F4F4F5',
           200: 'rgba(190, 190, 193, 1)',
-          300: '#D7C7C3',
+          300: '#7C7C83',
           400: 'rgba(99, 99, 105, 1)',
           500: '#848583',
           600: '#313135',
@@ -55,6 +55,9 @@ module.exports = {
       },
       screens: {
         'sm-408': '408px',
+      },
+      textDecorationThickness: {
+        strikethrough: 'strikethrough',
       }
     },
   },

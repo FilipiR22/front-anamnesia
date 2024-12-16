@@ -9,6 +9,7 @@ import ResgistrationSucessScreen from '../pages/ResgistrationSucessScreen';
 import PasswordCreationScreen from '../pages/PasswordCreationScreeen';
 import PasswordRecoveryScreen from '../pages/PasswordRecoveryScreen';
 import RecoveryLinkSend from '../pages/RecoveryLinkSend';
+import PasswordResetScreen from '../pages/PasswordResetScreen';
 
 const AppRoutes = () => {
     return (
@@ -23,6 +24,7 @@ const AppRoutes = () => {
                 <Route path='/registration-sucess' element={<ResgistrationSucessScreen/>}/>
                 <Route path='/password-creation' element={<PasswordCreationScreen/>}/>
                 <Route path='/password-recovery' element={<PasswordRecoveryScreen/>}/>
+                <Route path='/password-reset' element={<PasswordResetScreen/>}/>
                 <Route path='/link-recovery' element={<RecoveryLinkSend/>}/>
             </Routes>
         </BrowserRouter>
