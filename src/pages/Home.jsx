@@ -18,6 +18,7 @@ function Login() {
                     <Link to="/password-recovery" className="text-blue-500 underline">/password-recovery</Link>
                     <Link to="/link-recovery" className="text-blue-500 underline">/RecoveryLinkSend</Link>
                     <Link to="/password-reset" className="text-blue-500 underline">/password-reset</Link>
+                    <Link to="/password-reset-success" className="text-blue-500 underline">/password-reset-success</Link>
                 </main>
                 <Footer />
             </div>

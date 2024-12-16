@@ -1,6 +1,5 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import { Link } from 'react-router-dom';
 import InputPrimary from "../components/InputPrimary";
 import BtnPrimary from "../components/BtnPrimary";
 import Title from "../components/Title";
