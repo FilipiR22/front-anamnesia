@@ -627,12 +627,20 @@ video {
   display: grid;
 }
 
+.h-12 {
+  height: 3rem;
+}
+
 .min-h-screen {
   min-height: 100vh;
 }
 
 .w-full {
   width: 100%;
+}
+
+.w-12 {
+  width: 3rem;
 }
 
 .max-w-md {
@@ -695,6 +703,10 @@ video {
   border-radius: 0.5rem;
 }
 
+.rounded-full {
+  border-radius: 9999px;
+}
+
 .border {
   border-width: 1px;
 }
@@ -723,11 +735,6 @@ video {
 
 .border-transparent {
   border-color: transparent;
-}
-
-.border-gray-200 {
-  --tw-border-opacity: 1;
-  border-color: rgb(190 190 193 / var(--tw-border-opacity, 1));
 }
 
 .bg-gray-100 {
