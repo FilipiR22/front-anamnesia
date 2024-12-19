@@ -7,7 +7,7 @@ function PageNavigato() {
         <>
             <div className="flex flex-col justify-between min-h-screen root-container">
                 <Header />
-                <main className="flex justify-center items-center text-center gap-5 flex-1">
+                <main className="flex justify-center items-center text-center flex-wrap gap-12">
                     <Link to="/login" className="text-blue-500 underline">Login</Link>
                     <Link to="/email" className="text-blue-500 underline">Email Input</Link>
                     <Link to="/verification-code-send" className="text-blue-500 underline">/verification-code</Link>
