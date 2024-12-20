@@ -15,6 +15,7 @@ import Screen404 from '../pages/Screen404';
 import Screen500 from '../pages/Screen500';
 import PageNavigato from '../pages/PageNavigato';
 import Home from '../pages/Home';
+import HomeOutclass from '../pages/HomeOutclass';
 
 const AppRoutes = () => {
     return (
@@ -35,6 +36,7 @@ const AppRoutes = () => {
                 <Route path='/404' element={<Screen404/>}/>
                 <Route path='/500' element={<Screen500/>}/>
                 <Route path='/home' element={<Home/>}/>
+                <Route path='/home-outclass' element={<HomeOutclass/>}/>
             </Routes>
         </BrowserRouter>
     );

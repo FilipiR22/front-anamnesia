@@ -23,6 +23,7 @@ function PageNavigato() {
                     <Link to="/500" className="text-blue-500 underline">/500</Link>
                     <Link to="/500" className="text-blue-500 underline">/500</Link>
                     <Link to="/home" className="text-blue-500 underline">Home</Link>
+                    <Link to="/home-outclass" className="text-blue-500 underline">Home-outclass</Link>
                 </main>
                 <Footer />
             </div>
