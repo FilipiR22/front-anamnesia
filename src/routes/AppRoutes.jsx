@@ -1,7 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Login from '../pages/Login';
 import EmailInput from '../pages/EmailInputScreen';
-
 import CodeVerificationScreen from '../pages/CodeVerificationScreen';
 import VerificationCodeSend from '../pages/VerificationCodeSend';
 import PersonalDataSreen from '../pages/PersonalDataSreen';
@@ -16,6 +15,7 @@ import Screen500 from '../pages/Screen500';
 import PageNavigato from '../pages/PageNavigato';
 import Home from '../pages/Home';
 import HomeOutclass from '../pages/HomeOutclass';
+import ClassAvalible from '../pages/ClassAvalible';
 
 const AppRoutes = () => {
     return (
@@ -37,6 +37,7 @@ const AppRoutes = () => {
                 <Route path='/500' element={<Screen500/>}/>
                 <Route path='/home' element={<Home/>}/>
                 <Route path='/home-outclass' element={<HomeOutclass/>}/>
+                <Route path='/class-avalible' element={<ClassAvalible/>}/>
             </Routes>
         </BrowserRouter>
     );
