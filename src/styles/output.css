@@ -619,13 +619,6 @@ video {
   margin-top: 3rem;
 }
 
-.line-clamp-3 {
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;
-}
-
 .line-clamp-2 {
   overflow: hidden;
   display: -webkit-box;
@@ -718,12 +711,20 @@ video {
   gap: 3rem;
 }
 
+.gap-18-px {
+  gap: 18px;
+}
+
 .gap-2 {
   gap: 0.5rem;
 }
 
 .gap-2\.5 {
   gap: 0.625rem;
+}
+
+.gap-20 {
+  gap: 5rem;
 }
 
 .gap-3 {
@@ -738,22 +739,12 @@ video {
   gap: 1.5rem;
 }
 
-.gap-18-px {
-  gap: 18px;
-}
-
 .self-end {
   align-self: flex-end;
 }
 
 .overflow-hidden {
   overflow: hidden;
-}
-
-.truncate {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
 }
 
 .rounded-3xl {
@@ -822,6 +813,10 @@ video {
 .bg-primary-main {
   --tw-bg-opacity: 1;
   background-color: rgb(37 109 153 / var(--tw-bg-opacity, 1));
+}
+
+.p-2 {
+  padding: 0.5rem;
 }
 
 .p-3 {

@@ -3,7 +3,7 @@ import imgLogoExtenso from '../assets/logo_extenso.png'
 import Header from "../components/Header";
 import Sidebar from "../components/Sidebar";
 import iconHome from '../assets/iconHome.svg';
-import iconAvaliacoes from '../assets/iconAvaliacoes.svg';
+import iconAvaliacoes from '../assets/iconAvaliacoesThick.svg';
 import iconParticipantes from '../assets/iconParticipantes.svg';
 import imgUser from '../assets/img_user_aluno.png';
 import ShowDetails from "../components/ShowDetails";

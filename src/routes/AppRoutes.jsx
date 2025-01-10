@@ -16,6 +16,7 @@ import PageNavigato from '../pages/PageNavigato';
 import Home from '../pages/Home';
 import HomeOutclass from '../pages/HomeOutclass';
 import ClassAvalible from '../pages/ClassAvalible';
+import ClassParticipants from '../pages/ClassParticipants';
 
 const AppRoutes = () => {
     return (
@@ -38,6 +39,7 @@ const AppRoutes = () => {
                 <Route path='/home' element={<Home/>}/>
                 <Route path='/home-outclass' element={<HomeOutclass/>}/>
                 <Route path='/class-avalible' element={<ClassAvalible/>}/>
+                <Route path='/class-participants' element={<ClassParticipants/>}/>
             </Routes>
         </BrowserRouter>
     );
