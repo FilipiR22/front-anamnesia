@@ -6,6 +6,7 @@ import iconHome from '../assets/iconHome.svg';
 import iconAvaliacoes from '../assets/iconAvaliacoes.svg';
 import iconParticipantes from '../assets/iconParticipantes.svg';
 import imgUser from '../assets/img_user_aluno.png';
+import ShowDetails from "../components/ShowDetails";
 
 function ClassAvalible() {
     return (
@@ -28,7 +29,7 @@ function ClassAvalible() {
             <div className="flex flex-col justify-between min-h-screen flex-1">
                 <Header classAdd='px-6' NewLeftContent={<img src={imgLogoExtenso} alt="" />} rightContent={<img src={imgUser} alt="" className="w-12 h-12 rounded-full" />}/>
                 <main className="flex flex-1 flex-col container mx-auto gap-12 mt-12">
-                    <p>contexto</p>
+                    <ShowDetails/>
                 </main>
                 <Footer />
             </div>
