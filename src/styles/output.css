@@ -619,6 +619,10 @@ video {
   margin-top: 3rem;
 }
 
+.ms-6 {
+  margin-inline-start: 1.5rem;
+}
+
 .line-clamp-2 {
   overflow: hidden;
   display: -webkit-box;
@@ -670,8 +674,16 @@ video {
   min-width: 7rem;
 }
 
+.min-w-48 {
+  min-width: 12rem;
+}
+
 .max-w-md {
   max-width: 28rem;
+}
+
+.max-w-2xl {
+  max-width: 42rem;
 }
 
 .flex-1 {
@@ -761,6 +773,15 @@ video {
 
 .rounded-xl {
   border-radius: 0.75rem;
+}
+
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.rounded-r {
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
 }
 
 .border {

@@ -17,6 +17,7 @@ import Home from '../pages/Home';
 import HomeOutclass from '../pages/HomeOutclass';
 import ClassAvalible from '../pages/ClassAvalible';
 import ClassParticipants from '../pages/ClassParticipants';
+import Settings from '../pages/Settings';
 
 const AppRoutes = () => {
     return (
@@ -40,6 +41,7 @@ const AppRoutes = () => {
                 <Route path='/home-outclass' element={<HomeOutclass/>}/>
                 <Route path='/class-avalible' element={<ClassAvalible/>}/>
                 <Route path='/class-participants' element={<ClassParticipants/>}/>
+                <Route path='/settings' element={<Settings/>}/>
             </Routes>
         </BrowserRouter>
     );
