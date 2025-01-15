@@ -1,6 +1,6 @@
 function InputPrimary({ text_label, placeholder, id, type }) {
     return (
-        <fieldset className="flex flex-col">
+        <fieldset className="flex flex-col w-full">
             <label htmlFor={id} className="mb-2 text-sm font-medium">
                 <span className="text-gray-400">{text_label}</span>
             </label>

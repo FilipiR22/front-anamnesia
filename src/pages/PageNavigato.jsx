@@ -21,7 +21,6 @@ function PageNavigato() {
                     <Link to="/password-reset-success" className="text-blue-500 underline">/password-reset-success</Link>
                     <Link to="/404" className="text-blue-500 underline">/404</Link>
                     <Link to="/500" className="text-blue-500 underline">/500</Link>
-                    <Link to="/500" className="text-blue-500 underline">/500</Link>
                     <Link to="/home" className="text-blue-500 underline">Home</Link>
                     <Link to="/home-outclass" className="text-blue-500 underline">Home-outclass</Link>
                     <Link to="/class-avalible" className="text-blue-500 underline">ClassAvalible</Link>
