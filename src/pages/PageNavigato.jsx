@@ -26,6 +26,7 @@ function PageNavigato() {
                     <Link to="/class-avalible" className="text-blue-500 underline">ClassAvalible</Link>
                     <Link to="/class-participants" className="text-blue-500 underline">ClassParticipantes</Link>
                     <Link to="/settings" className="text-blue-500 underline">settings</Link>
+                    <Link to="/settings-password" className="text-blue-500 underline">settings password</Link>
                 </main>
                 <Footer />
             </div>

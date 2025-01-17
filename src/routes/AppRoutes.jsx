@@ -18,6 +18,7 @@ import HomeOutclass from '../pages/HomeOutclass';
 import ClassAvalible from '../pages/ClassAvalible';
 import ClassParticipants from '../pages/ClassParticipants';
 import Settings from '../pages/Settings';
+import SettingsPassword from '../pages/SettingsPassword';
 
 const AppRoutes = () => {
     return (
@@ -42,6 +43,7 @@ const AppRoutes = () => {
                 <Route path='/class-avalible' element={<ClassAvalible/>}/>
                 <Route path='/class-participants' element={<ClassParticipants/>}/>
                 <Route path='/settings' element={<Settings/>}/>
+                <Route path='/settings-password' element={<SettingsPassword/>}/>
             </Routes>
         </BrowserRouter>
     );
